@@ -1,0 +1,16 @@
+
+.progress{
+  &_root{
+    z-index: 900;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  &_base{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+  }
+}
